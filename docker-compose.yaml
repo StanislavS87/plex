@@ -15,7 +15,7 @@ services:
       - movies:/movies
     ports:
        - 32400:3240
-   volumes:
-    conf:
-
     restart: unless-stopped
+    volumes:
+         conf:
+
