@@ -13,18 +13,9 @@ services:
       - conf:/config
       - tvseries:/tv
       - movies:/movies
-  ports:
-  - 32400:3240
-  - 1900:1900
-  - 3005:3005
-  - 5353:5353
-  - 8324:8324
-  - 32410:32410
-  - 32412:32412
-  - 32413:32413
-  - 32414:32414
-  - 32469:32469
+    ports:
+       - 32400:3240
    volumes:
     conf:
- 
+
     restart: unless-stopped
