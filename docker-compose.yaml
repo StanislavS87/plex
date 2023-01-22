@@ -16,5 +16,8 @@ services:
     ports:
        - 32400:3240
     restart: unless-stopped
-
+volumes:
+  conf_data:
+  tvseries:
+  movies:
 
