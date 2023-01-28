@@ -14,7 +14,7 @@ services:
       - tvseries:/tv
       - movies:/movies
     ports:
-       - 32400:3240
+       - 80:32400
     restart: unless-stopped
 volumes:
   conf_data:
